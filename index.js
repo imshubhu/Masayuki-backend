@@ -59,7 +59,7 @@ cron.schedule("*/5 * * * *", async () => {
     // }, frequency);
   });
   var fetch_res = await fetch(
-    `https://kurta-backend.onrender.com/`
+    `https://masayuki.onrender.com/`
   );
   var fetch_data = await fetch_res.json();
   console.log("fetch_data", fetch_data);
